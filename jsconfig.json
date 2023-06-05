@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "baseUrl": ".",
+        "paths": {
+            "@lib/*": ["./lib/*"],
+            "@fnc/*": ["./lib/function/*"]
+        }
+    },
+    "exclude": ["node_modules"]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "crizzybot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "keywords": [
+    "wabot"
+  ],
+  "author": "Fadhil Graphy",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/baileys": "npm:baileys@6.0.8",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "awesome-phonenumber": "^2.64.0",
+    "axios": "^0.24.0",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.10",
+    "child_process": "^1.0.2",
+    "cross-fetch": "^3.1.6",
+    "crypto": "^1.0.1",
+    "file-type": "^16.5.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^4.0.0",
+    "fs": "0.0.1-security",
+    "fs-extra": "^10.0.0",
+    "https": "^1.0.0",
+    "human-readable": "^0.2.1",
+    "jimp": "^0.16.1",
+    "js-yaml": "^4.1.0",
+    "jsdom": "^16.6.0",
+    "module-alias": "^2.2.2",
+    "moment-timezone": "^0.5.34",
+    "node-fetch": "^2.6.1",
+    "node-webpmux": "^3.1.0",
+    "openai": "^3.2.1",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "perf_hooks": "0.0.1",
+    "performance-now": "^2.1.0",
+    "pino": "^7.0.5",
+    "qrcode-terminal": "^0.12.0",
+    "replicate": "^0.12.1",
+    "request": "^2.88.2",
+    "syntax-error": "^1.4.0",
+    "util": "^0.12.4",
+    "yargs": "^17.2.1",
+    "yt-search": "^2.9.0",
+    "ytdl-core": "^4.11.4"
+  },
+  "_moduleAliases": {
+    "@libs": "lib",
+    "@fnc": "lib/function"
+  }
+}
